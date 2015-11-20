@@ -18,7 +18,12 @@
         </div>
 
         <div class="form-group">
-          <input type="submit" class="btn btn-primary">
+          <label for="captcha-input"><captcha field1="{{field1}}" operator="{{operator}}" field2="{{field2}}"></captcha></label>
+          <input type="text" id="captcha-input" class="form-control" ng-model="captchaResult" required>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" class="btn btn-primary" value="Изменить">
         </div>
       </form>
     </div>

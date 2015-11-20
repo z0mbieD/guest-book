@@ -8882,4 +8882,17 @@ body {
   color: grey;
 }
 
+/* line 104, ../styles/main.scss */
+.captcha p {
+  display: inline;
+  width: 20px;
+  padding: 20px;
+}
+
+/* line 109, ../styles/main.scss */
+.resultado {
+  margin-left: -30px;
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */
