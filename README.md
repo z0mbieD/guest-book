@@ -1,12 +1,30 @@
 # guest-book
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.14.0.
+Проект гостевой книги на AngularJS.
 
-## Build & development
+## Настройка
 
-Run `grunt` for building and `grunt serve` for preview.
+Установите `bower`, `grunt-cli`
+```
+npm install -g bower grunt-cli
+```
 
-## Testing
+Для работы с SASS понадобится установить [ruby](http://rubyinstaller.org/downloads) и выполить команду:
+```
+gem install sass
+gem install compass
+```
 
-Running `grunt test` will run the unit tests with karma.
+В папке проекта необходимо выполнить команды:
+```
+npm install
+bower install
+```
+
+## Запуск
+
+Используйте команду `grunt serve` для запуска проекта.
+
+## Тестирование
+
+Запустите `grunt test` для старта karma unit тестов.
